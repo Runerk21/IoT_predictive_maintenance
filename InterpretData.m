@@ -27,7 +27,7 @@ buf = movmax(bin, [win1 win1]);
 buf1 = movmin(buf, [win2 win2]);
 toc
 
-%% Find start & stop index
+% Find start & stop index
 idx1 = zeros(length(buf1),1); % Initiate idx array
 idx2 = zeros(length(buf1),1); % Initiate idx array
 win3 = 50; % Window size. Used to check before startpoint and after stoppoint
