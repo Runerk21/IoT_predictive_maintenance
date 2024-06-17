@@ -70,7 +70,7 @@ disp(['Number of tool engagement found: ',num2str(length(startidx))])
 idx_rotstart = stopidx(1,3:3:end-1);
 idx_rotstop = startidx(1,4:3:end-1);
 
-%% Plot
+% Plot
 color = sscanf('#77AC30', '#%2x%2x%2x', 3) / 255;
 
 figure
