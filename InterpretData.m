@@ -1,8 +1,8 @@
 clear; close all; clc;
-%addpath('C:\Users\mail\OneDrive - Aalborg Universitet\8. Semester\P8\AudioData\Done') % Laptop
-addpath('C:\Users\Bjørn\OneDrive - Aalborg Universitet\8. Semester\P8\AudioData\Done') % Desktop
 
-files = dir('AudioData\Done');
+addpath('add path') 
+
+files = dir('add directory');
 
 i = 25; % Select which file
 tic
