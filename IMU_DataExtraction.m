@@ -1,7 +1,7 @@
-%% Load data
+% Load data
 clear, clc, close all,
 
-addpath("C:\Users\mail\OneDrive - Aalborg Universitet\8. Semester\P8\IMU_Data")
+addpath("add path")
 n = length(dir('IMU_Data'))-2;
 
 % Load files into arrays
@@ -28,7 +28,7 @@ end
 timestamp_sec = timestamp/1000;
 dt = datetime(timestamp_sec,'convertFrom','posixtime','Format','yyyy-MM-dd HH:mm:ss.SSS');
 
-%% Segment data
+% Segment data
 % Start and stop times
 Ref_start = {'2024-04-25 11:41:25.439'; '2024-04-25 12:18:24.874'; '2024-04-25 12:46:48.466'; '2024-04-25 13:23:47.691'; '2024-04-25 13:52:11.799'; '2024-04-25 14:29:10.637'; '2024-04-25 14:57:37.417'; '2024-04-25 15:34:36.339'};
 Ref_stop = {'2024-04-25 11:44:00.218';'2024-04-25 12:20:19.874'; '2024-04-25 12:49:23.215'; '2024-04-25 13:25:42.905'; '2024-04-25 13:54:46.458'; '2024-04-25 14:31:05.539'; '2024-04-25 15:00:12.334'; '2024-04-25 15:36:30.615'};
